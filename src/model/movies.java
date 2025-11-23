@@ -7,8 +7,8 @@ public class movies {
     private int duration;
     private String description;
     private Date releaseDate;
-    public Movie(){}
-    public Movie(String movieId, String movieName, String type, int duration, String description, Date releaseDate) {
+    public movies(){}
+    public movies(String movieId, String movieName, String type, int duration, String description, Date releaseDate) {
         this.movieId = movieId;
         this.movieName = movieName;
         this.type = type;
